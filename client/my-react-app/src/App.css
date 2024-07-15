@@ -1,0 +1,109 @@
+.App {
+  background-image: url('./img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header {
+  color: black;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px #2f2f2f;
+  margin-bottom: 20px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  margin: 20px;
+  width: 80%; 
+}
+
+.input input {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px;
+  margin-right: 10px;
+  flex: 1; 
+}
+
+.input button {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  min-width: 120px; 
+}
+
+.input button:hover {
+  background-color: white;
+  color: black;
+}
+
+.items ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.items {
+  width: 50%;
+}
+
+.items li {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+}
+
+.editing {
+  display: flex;
+  flex-direction: column;
+}
+
+.editing input {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.editing button {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.buttons button {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.buttons button:hover {
+  background-color: white;
+  color: black;
+}
